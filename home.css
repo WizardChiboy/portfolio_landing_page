@@ -68,3 +68,23 @@
   width: 30%;
   margin: auto;
 }
+
+.hero-contents img {
+  width: 95%;
+  border-radius: 20px;
+}
+
+.hero-contents h3 {
+  margin: 20px 0px;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.hero-contents p {
+  width: 85%;
+  margin: 20px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgb(49, 49, 49);
+}
