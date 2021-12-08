@@ -4,11 +4,17 @@
   font-family: serif;
 }
 
+.header_logo {
+  font-weight: 800;
+}
 .header_nav_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15px 50px;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .header_nav_list ul a li {
@@ -30,4 +36,23 @@
   background-size: cover;
   background-position: center;
   color: white;
+}
+
+.header-text {
+  text-align: center;
+  padding-top: 200px;
+  font-size: 25px;
+  letter-spacing: 20px;
+}
+
+.intro {
+  height: 20vh;
+  margin: 60px;
+}
+
+.intro h3 {
+  text-align: center;
+  width: 45%;
+  margin: auto;
+  font-size: 40px;
 }
