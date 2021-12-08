@@ -56,3 +56,15 @@
   margin: auto;
   font-size: 40px;
 }
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+.hero-contents {
+  width: 30%;
+  margin: auto;
+}
