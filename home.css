@@ -1,13 +1,14 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: serif;
 }
 
 .header_nav_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 50px;
+  margin: 15px 50px;
 }
 
 .header_nav_list ul a li {
@@ -20,4 +21,13 @@
   color: black;
   text-transform: capitalize;
   margin-right: 20px;
+}
+
+.header-image-container {
+  background: url("./images/bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
