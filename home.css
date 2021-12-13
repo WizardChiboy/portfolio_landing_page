@@ -256,3 +256,63 @@
   display: flex;
   justify-content: space-between;
 }
+
+.hero-four {
+  margin: auto;
+  margin-top: 200px;
+}
+
+.hero-four h2 {
+  font-size: 40px;
+}
+
+.hero-four p {
+  font-size: 18px;
+}
+
+.work {
+  width: 90%;
+  margin: auto;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 50px;
+}
+
+.projects img {
+  width: 48%;
+  margin: 30px 0px;
+}
+
+.hero-four-btn {
+  width: 15%;
+  margin: auto;
+  background: rgb(16, 16, 146);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.sub-footer-section {
+  background-color: rgb(237, 242, 248);
+  width: 50%;
+  margin: auto;
+  height: 50vh;
+  border-radius: 30px;
+  padding: 80px;
+}
+
+footer {
+  background-color: blue;
+  height: 150vh;
+  position: sticky;
+  width: 100%;
+}
