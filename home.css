@@ -303,11 +303,12 @@
 
 .sub-footer-section {
   background-color: rgb(237, 242, 248);
-  width: 50%;
+  width: 75%;
   margin: auto;
-  height: 50vh;
+  height: 100vh;
   border-radius: 30px;
   padding: 80px;
+  padding-bottom: 200px;
 }
 
 footer {
@@ -315,4 +316,61 @@ footer {
   height: 150vh;
   position: sticky;
   width: 100%;
+  margin-top: 200px;
+}
+
+.sub-footer-section h1 {
+  font-size: 70px;
+  width: 50%;
+}
+
+.sub-footer-section p {
+  line-height: 40px;
+  font-size: 20px;
+  width: 50%;
+  margin: 30px 0px;
+}
+
+.mail,
+.address,
+.mobile {
+  margin: 50px 0px;
+  width: 50%;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  text-align: justify;
+}
+
+.sub-footer-icons img {
+  margin-right: 30px;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.twitter,
+.instagram,
+.dribble,
+.skype {
+  align-items: center;
+  display: flex;
+}
+
+.social-media-links img {
+  margin-right: 20px;
+}
+
+.social-media-links a {
+  text-decoration: none;
+  color: rgb(117, 112, 112);
+  padding: 10px 0px;
+}
+
+.social-media-links a:hover {
+  border-bottom: solid 3px blue;
 }
